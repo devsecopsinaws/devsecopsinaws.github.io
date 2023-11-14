@@ -1,89 +1,275 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
-    <meta charset="UTF-8">
+    <title>Demystifying DevSecOps in AWS</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Book Title</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f4f4f4;
-        }
+    <meta name="description" content="">
+    <meta name="author" content="Picklu Paul">    
+    <link rel="shortcut icon" href="favicon.png"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:700|Roboto:400,400i,700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="main/fontawesome/js/all.min.js"></script>
 
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-        }
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="main/css/theme.css">
 
-        section {
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 2em;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+</head> 
 
-        h1, h2 {
-            color: #333;
-        }
+<body>    
+    <header class="header">	    
+        <div class="branding">
+            <div class="container-fluid position-relative py-3">
+                <div class="logo-wrapper">
+	                <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon me-2" src="" alt="" ><span class="logo-text"></span></a></div>    
+                </div><!--//docs-logo-wrapper-->
+	        
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
 
-        p {
-            color: #666;
-            line-height: 1.6;
-        }
 
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 1em;
-        }
+    <section class="hero-section">
+	    <div class="container">
+		    <div class="row">
+				<div class="col-12 col-md-5 mb-5 align-self-center">
+				    <div class="book-cover-holder">
+					    <img class="img-fluid book-cover " src="main/images/ddia2.jpg" alt="book cover" >
+					    <div class="book-badge d-inline-block shadow">
+						    New<br>Release
+					    </div>
+				    </div><!--//book-cover-holder-->
 
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 24px;
-            font-size: 16px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
+			    </div><!--col-->
+			    <div class="col-12 col-md-7 pt-5 mb-5 align-self-center">
+				    <div class="promo pe-md-3 pe-lg-5">
+					    <b><h1 class="headline mb-1" style="font-family: Impact; "></b>
+						    Demystifying Devsecops in AWS <br>  
+					    </h1><!--//headline-->
+					    <div class="subheadline mb-4">
+							This book is your one-stop shop for mastering DevSecOps in AWS. With it, you'll be able to protect your applications and data, and achieve operational excellence in the cloud.					    </div><!--//subheading-->
+					    
+					    <div class="cta-holder row gx-md-3 gy-3 gy-md-0">
+						    <div class="col-12 col-md-auto">
+						        <a class="btn btn-primary w-1" style="background-color:purple;" href="#form-section">Buy Now</a>
+						    </div>
+						    <div class="col-12 col-md-auto">
+						        <a class="btn btn-secondary scrollto w-100" href="#benefits-section" style="border-color:purple;color: purple;" >Learn More</a>
+								
+						    </div>
+					    </div><!--//cta-holder-->
+					    
 
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
-</head>
-<body>
+				    </div><!--//promo-->
+			    </div><!--col-->
 
-    <header>
-        <h1>Your Book Title</h1>
-        <p>A compelling tagline or subtitle.</p>
-    </header>
+		    </div><!--//row-->
+	    </div><!--//container-->
+    </section><!--//hero-section-->
 
-    <section>
-        <img src="path/to/your/book-cover.jpg" alt="Your Book Cover">
-        <h2>About the Book</h2>
-        <p>This is where you can provide a brief overview of your book. Highlight its key features, the genre, and what makes it special. Use this space to entice potential readers.</p>
-    </section>
+	<section id="form-section" class="form-section">
+	    <div class="container">
+		    <div class="lead-form-wrapper single-col-max mx-auto theme-bg-dark rounded p-5" style="background-color: rgba(247, 245, 248, 0.897);">
+			    <h2 class="form-heading text-center"><b>Available In</b></h2>
+			    <div class="form-intro text-center mb-3">Click any retailer below to purchase !</div>
+				<div class="retailers-body">
+					<a class="amazon" href="https://www.amazon.com/Demystifying-DevSecOps-AWS-operational-excellence/dp/9355515995" rel="external" target="_blank"><img src="main/images/buy_book_amazon.png" alt="Amazon"/></a>
+					<a class="az_usa"  href="https://www.amazon.com/Demystifying-DevSecOps-AWS-operational-excellence/dp/9355515995" rel="external" target="_blank"><img src="main/images/usa.png" style="height: 15px; width: 15px;" alt="Borders"/> amazon.com</a>
+					<a class="az_sg"  href="https://www.amazon.sg/Demystifying-DevSecOps-AWS-operational-excellence/dp/9355515995" rel="external" target="_blank"><img src="main/images/sg.png" style="height: 15px; width: 15px;" alt="Borders"/> amazon.sg</a>
+					<a class="az_in"  href="https://www.amazon.in/Demystifying-DevSecOps-AWS-operational-excellence/dp/9355515995" rel="external" target="_blank"><img src="main/images/in.png" style="height: 15px; width: 15px;" alt="Borders"/> amazon.in</a>
+					<a class="az_uk"  href="https://www.amazon.co.uk/Demystifying-DevSecOps-AWS-operational-excellence/dp/9355515995" rel="external" target="_blank"><img src="main/images/uk.png" style="height: 15px; width: 15px;" alt="Borders"/> amazon.co.uk</a>
+					<a class="az_other" href="https://www.google.com/search?q=amazon" rel="external" target="_blank">Try Local Amazon</a>
+					<hr>
+					<a class="bpb" href="https://bpbonline.com/products/demystifying-devsecops-in-aws?variant=42989443186888" rel="external" target="_blank"><img src="main/images/bpb.avif" alt="bpb" style="height: 30px; width: 40px;"/></a>
+					<a class="googlebooks" href="https://play.google.com/store/books/details?id=I4ThEAAAQBAJ" rel="external" target="_blank"><img src="main/images/googlebooks.png" alt="googlebooks" style="height: 30px; width: 120px; padding-left: 10px;"/></a>
+					<a class="barnesAndNoble" href="https://www.barnesandnoble.com/w/demystifying-devsecops-in-aws-picklu-paul/1144334910" rel="external" target="_blank"><img src="main/images/barnes.png" alt="Barnes and Noble"/></a>
+					<a class="smarshword" href="https://www.smashwords.com/books/view/1476764" rel="external" target="_blank"><img src="main/images/sw.png" alt="smarshword" style="height: 40px; width: 150px;"/></a>
+					<a class="wb" href="https://www.weltbild.de/artikel/ebook/demystifying-devsecops-in-aws-achieve-operational-excellence_42710749-1" rel="external" target="_blank"><img src="main/images/wb.png" alt="wb" style="height: 30px; width: 100px; padding-left: 10px;"/></a>
+					<a class="decitre" href="https://www.decitre.fr/ebooks/demystifying-devsecops-in-aws-achieve-operational-excellence-in-the-cloud-with-devsecops-9789355516008_9789355516008_10020.html" rel="external" target="_blank"><img src="main/images/decitre.png" alt="decitre" style="height: 30px; width: 90px; padding-left: 10px;"/></a>
 
-    <section>
-        <h2>About the Author</h2>
-        <p>Introduce yourself as the author. Share relevant details about your background and what inspired you to write this book. Make a personal connection with your readers.</p>
-    </section>
+				</div>
+		    </div><!--//lead-form-wrapper-->
+	    </div><!--//container-->
+    </section><!--//form-section-->
 
-    <section>
-        <h2>Get Your Copy Now!</h2>
-        <p>Convince visitors to take action. Use this section to provide links to where they can purchase the book. You can also include reviews or testimonials to build trust.</p>
-        <button onclick="window.location.href='link-to-purchase-page'">Buy Now</button>
-    </section>
+	<br>
+    
+    <section id="benefits-section" class="benefits-section theme-bg-light-gradient py-5">
+	    <div class="container py-5">
+		    <h2 class="section-heading text-center mb-3">Key Features</h2>
+		    <div class="section-intro single-col-max mx-auto text-center mb-5">“Demystifying DevSecOps in AWS” is a practical and insightful handbook designed to empower you in your pursuit of securing modern enterprises within Amazon Web Services (AWS) environments. </div>
+		    <div class="row text-center">
+			    <div class="item col-12 col-md-6 col-lg-4">
+				    <div class="item-inner p-3 p-lg-4">
+					    <div class="item-header mb-3">
+						    <div class="item-icon"><i class="fas fa-book"></i></div>
+						    <h3 class="item-heading">DevSecOps Principles in AWS</h3>
+					    </div><!--//item-heading-->
+					    <div class="item-desc">
+							Explore DevSecOps principles, fundamentals, practices, and their application in AWS environments comprehensively and in-depth.
+				    </div><!--//item-desc-->
+				    </div><!--//item-inner-->
+			    </div><!--//item-->
+			    <div class="item col-12 col-md-6 col-lg-4">
+				    <div class="item-inner p-3 p-lg-4">
+					    <div class="item-header mb-3">
+						    <div class="item-icon"><i class="fas fa-toolbox"></i></div>
+						    <h3 class="item-heading">AWS Security Tools for DevSecOps</h3>
+					    </div><!--//item-heading-->
+					    <div class="item-desc">
+							Leverage AWS services and tools to enhance security within your DevSecOps pipeline, gaining deep insights.
+						</div><!--//item-desc-->
+				    </div><!--//item-inner-->
+			    </div><!--//item-->
+			    <div class="item col-12 col-md-6 col-lg-4">
+				    <div class="item-inner p-3 p-lg-4">
+					    <div class="item-header mb-3">
+						    <div class="item-icon"><i class="fas fa-cogs"></i></div>
+						    <h3 class="item-heading">Real-world Scenario</h3>
+					    </div><!--//item-heading-->
+					    <div class="item-desc">
+							Implement DevSecOps practices in AWS environments with step-by-step guidance and real-world corporate examples.						    </div><!--//item-desc-->
+						</div><!--//item-desc-->
+						
+				    </div><!--//item-inner-->
+			    </div><!--//item-->
+				<hr>
+		    </div><!--//row-->
+	    </div><!--//container-->
+    </section><!--//benefits-section-->
+
+    <section id="content-section" class="content-section">
+	    <div class="container">
+		    <div class="single-col-max mx-auto">
+		    <h2 class="section-heading text-center mb-5">What you will learn</h2>
+			    <div class="row">
+				    <div class="col-12 col-md-6">
+					    <div class="figure-holder mb-5">
+							<img src="main/images/bpb.gif" alt="Description of your animation"  style="height: 430px; width: 320px; " />
+					    </div><!--//figure-holder-->
+				    </div><!--//col-->
+				    <div class="col-12 col-md-6 mb-5">
+					    <div class="key-points mb-4 text-center">
+						    <ul class="key-points-list list-unstyled mb-4 mx-auto d-inline-block text-start">
+							    <li><i class="fas fa-check-circle me-1" style="color: rgba(1, 107, 1, 0.651);"></i>Learn to infuse security into the DevOps lifecycle and master AWS DevSecOps.</li>
+							    <li><i class="fas fa-check-circle me-2" style="color: rgba(1, 107, 1, 0.651);"></i>Architect and implement a DevSecOps pipeline in AWS.</li>
+							    <li><i class="fas fa-check-circle me-2" style="color: rgba(1, 107, 1, 0.651);"></i>Scale DevSecOps practices to accommodate the growth of AWS environments.</li>
+							    <li><i class="fas fa-check-circle me-2" style="color: rgba(1, 107, 1, 0.651);"></i>Implement holistic security measures across the software lifecycle.</li>
+							    <li><i class="fas fa-check-circle me-2" style="color: rgba(1, 107, 1, 0.651);"></i>Learn real-world DevSecOps scenarios and lead DevSecOps initiatives. </li>
+						    </ul>
+						    <div class="text-center"><a class="btn btn-primary" href="#form-section">I want this book</a></div>
+					    </div><!--//key-points-->
+				    </div><!--//col-12-->   
+					<hr>
+			    </div><!--//row-->
+		    </div><!--//single-col-max-->
+	    </div><!--//container-->
+    </section><!--//content-section-->
+	
+    <section id="audience-section" class="audience-section py-5">
+	    <div class="container">
+		    <h2 class="section-heading text-center mb-4">Who This Book Is For</h2>
+		    <div class="section-intro single-col-max mx-auto text-center mb-5">
+				This book is for anyone who wants to learn about DevSecOps in AWS.<br> A basic understanding of AWS and the software development lifecycle is required, <br>but no prior experience with DevSecOps is necessary.
+		    </div><!--//section-intro-->
+		    <div class="audience mx-auto">
+			    <div class="item row gx-3">
+				    <div class="col-auto item-icon"><i class="fas fa-user-check"></i></div>
+				    <div class="col">
+					    <h4 class="item-title"> Cybersecurity Professionals</h4>
+				    </div><!--//col-->
+			    </div><!--//item-->			    
+			    <div class="item row gx-3">
+				    <div class="col-auto item-icon"><i class="fas fa-user-check"></i></div>
+				    <div class="col">
+					    <h4 class="item-title"> DevOps and SRE Engineers</h4>
+				    </div><!--//col-->
+			    </div><!--//item-->			    
+			    <div class="item row gx-3">
+				    <div class="col-auto item-icon"><i class="fas fa-user-check"></i></div>
+				    <div class="col">
+					    <h4 class="item-title">AWS cloud practitioners</h4>
+				    </div><!--//col-->
+			    </div><!--//item-->
+				<div class="item row gx-3">
+				    <div class="col-auto item-icon"><i class="fas fa-user-check"></i></div>
+				    <div class="col">
+					    <h4 class="item-title">Software developers</h4>
+				    </div><!--//col-->
+			    </div><!--//item-->
+				<div class="item row gx-3">
+				    <div class="col-auto item-icon"><i class="fas fa-user-check"></i></div>
+				    <div class="col">
+					    <h4 class="item-title">IT managers</h4>
+				    </div><!--//col-->
+			    </div><!--//item-->
+			    <div class="item row gx-3">
+				    <div class="col-auto item-icon"><i class="fas fa-user-check"></i></div>
+				    <div class="col">
+					    <h4 class="item-title">Academic Researchers and Students</h4>
+				    </div><!--//col-->
+			    </div><!--//item-->
+		    </div><!--//audience-->
+	    </div><!--//container-->
+    </section><!--//audience-section-->
+    
+
+    
+    
+    <section id="author-section" class="author-section section theme-bg-primary py-5">
+	    <div class="container py-3">
+		    <div class="author-profile text-center mb-5">
+			    <img class="author-pic" src="main/images/profiles/author.png" alt="image" style="border-radius: 50%;" >
+		    </div><!--//author-profile-->
+		    <h2 class="section-heading text-center text-white mb-3">About The Author</h2>
+		    <div class="author-bio single-col-max mx-auto">
+			    <p>Picklu Paul is a dynamic and forward-thinking cybersecurity leader based in Singapore. With a decade of diverse experience across multiple IT domains, he brings a fresh perspective and a passion for pushing the boundaries of Cybersecurity.
+					With a strong foundation in both DevSecOps and AWS security, Picklu has quickly risen to prominence as a thought leader in the industry. His innovative contributions and dedication to staying ahead of evolving threats have earned him respect and recognition among peers. </p>
+					
+				<p>When not immersed in the world of cybersecurity, Picklu is a passionate chess player and an occasional billiards enthusiast. His diverse interests reflect a well-rounded personality, always eager for new challenges and experiences.
+					
+					His latest publication, 'Demystifying DevSecOps in AWS: Achieve operational excellence in the cloud with DevSecOps', reflects his commitment to empowering the next generation of cybersecurity leaders. It encapsulates Picklu’s vision for achieving DevSecOps excellence in AWS environments and underscores his status as a prominent leader in the DevSecOps realm.
+					</p>
+			    <div class="author-links text-center pt-4">
+			        <h5 class="text-white mb-4">Follow Author</h5>
+				    <ul class="social-list list-unstyled">
+					    <li class="list-inline-item"><a href="https://www.linkedin.com/in/picklu-paul"><i class="fab fa-linkedin"></i></a></li>
+					    <li class="list-inline-item"><a href="https://github.com/PickluPaul"><i class="fab fa-github-alt"></i></a></li> 
+			            <li class="list-inline-item"><a href="https://twitter.com/paul_picks"><i class="fab fa-twitter"></i></a></li>
+			            			        </ul><!--//social-list-->
+			    </div><!--//author-links-->
+			    
+		    </div><!--//author-bio-->
+		    
+	    </div><!--//container-->
+    </section><!--//author-section-->
+    
+    
+
+    <footer class="footer">
+
+	    <div class="footer-bottom text-center py-5">
+
+	        <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Made with <span class="sr-only">love</span><i class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link" href="https://www.linkedin.com/in/picklu-paul" target="_blank">Picklu Paul</a> for readers</small>
+ 
+	    </div>
+	
+    </footer>
+       
+    <!-- Javascript -->          
+    <script src="main/plugins/popper.min.js"></script>
+    <script src="main/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    <script src="main/plugins/smoothscroll.min.js"></script> 
+    
+    <script src="main/js/main.js"></script>
 
 </body>
-</html>
+</html> 
+
